@@ -1,0 +1,41 @@
+{
+  "name": "sui-hypnotic-health",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@headlessui/react": "^2.0.4",
+    "@headlessui/tailwindcss": "^0.2.1",
+    "@mysten/sui.js": "^0.54.1",
+    "@suiet/wallet-kit": "^0.2.24",
+    "@thirdweb-dev/react": "^4.9.4",
+    "@thirdweb-dev/sdk": "^4.0.99",
+    "@tremor/react": "^3.17.2",
+    "@types/react-webcam": "^3.0.0",
+    "canvas-confetti": "^1.9.3",
+    "chart.js": "^4.4.3",
+    "ethers": "^5.7.2",
+    "face-api.js": "^0.22.2",
+    "jquery": "^3.7.1",
+    "next": "^14.0.4",
+    "rc-slider": "^10.6.2",
+    "react": "^18.3.1",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.3.1",
+    "react-modal": "^3.16.1",
+    "styled-components": "^6.1.11"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.7",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.4",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.3"
+  }
+}

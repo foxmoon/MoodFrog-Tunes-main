@@ -1,0 +1,36 @@
+/* App.css */
+
+.bg-image {
+    background-image: url('/background.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .bg-image::before {
+    content: "";
+    position: absolute;
+    top: 50%;  /* 调整为画面中心 */
+    left: 50%;  /* 调整为画面中心 */
+    width: 200%;
+    height: 200%;
+    background-image: radial-gradient(circle at center, transparent 0%, transparent 80%, rgba(255,255,255,0.5) 100%);
+    transform: translate(-50%, -50%) scale(0.5);
+    animation: ripple 3s infinite;
+  }
+  
+  @keyframes ripple {
+    0% {
+      transform: translate(-50%, -50%) scale(0);
+    }
+    100% {
+      transform: translate(-50%, -50%) scale(1.5);
+    }
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+  }
